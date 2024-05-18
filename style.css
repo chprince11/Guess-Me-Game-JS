@@ -123,10 +123,6 @@ h1 {
 
 /* Responsive Design */
 
-/*
-For device having maximum of 1040 px
-*/
-
 @media (max-width: 1040px) {
   h1 {
     font-size: 2.7rem;
@@ -137,6 +133,7 @@ For device having maximum of 1040 px
     width: 10rem;
     padding: 1.5rem 0;
   }
+
   .guess {
     font-size: 1.8rem;
     padding: 1.8rem;
@@ -144,88 +141,94 @@ For device having maximum of 1040 px
     width: 100%;
     height: 14vh;
   }
+
   .btn {
     font-size: 1.8rem;
     padding: 1.8rem 1.8rem;
-    top: 2rem;
-    left: 2rem;
   }
+
   .right {
     margin-bottom: 3rem;
     font-size: 1.8rem;
   }
+
   .between {
     font-size: 1.6rem;
   }
 }
 
-/*
-For device having maximum of 576 px
-*/
-
 @media (max-width: 576px) {
   h1 {
     font-size: 2.3rem;
   }
+
   .number {
     font-size: 3.5rem;
     width: 8rem;
     padding: 1rem 0;
   }
+
   .guess {
     font-size: 1.7rem;
     width: 29rem;
     padding: 1rem;
   }
+
   .btn {
     font-size: 1.5rem;
     padding: 1.6rem;
   }
+
   .message {
     margin-bottom: 2rem;
   }
+
   .between {
     font-size: 1.4rem;
   }
+
   .right {
     font-size: 1.4rem;
   }
 }
-
-/*
-For device having maximum of 440 px
-*/
 
 @media (max-width: 440px) {
   h1 {
     font-size: 2.4rem;
     margin-top: 1.3rem;
   }
+
   .number {
     font-size: 3.5rem;
     width: 8rem;
     padding: 1rem 0;
   }
+
   .guess {
     font-size: 1.7rem;
     width: 29rem;
     padding: 1rem;
   }
+
   .btn {
     font-size: 1.5rem;
     padding: 1.6rem;
   }
+
   .again {
     width: 90%;
     right: 1rem;
     top: 4.2rem;
   }
+
   .check {
     width: 50%;
   }
+
   .message {
     margin-bottom: 2rem;
   }
+
   .between {
     text-align: center;
     font-size: 1.4rem;
@@ -234,44 +237,49 @@ For device having maximum of 440 px
     top: 1.2rem;
     right: 0rem;
   }
+
   .right {
     font-size: 1.4rem;
   }
 }
 
-/*
-For device having maximum of 300 px
-*/
 @media (max-width: 300px) {
   h1 {
     font-size: 2rem;
     margin-top: 1.3rem;
   }
+
   .number {
     font-size: 3.5rem;
     width: 8rem;
     padding: 1rem 0;
   }
+
   .guess {
     font-size: 1.7rem;
     width: 15rem;
     height: 8vh;
   }
+
   .btn {
     font-size: 1.2rem;
     padding: 1.6rem;
   }
+
   .again {
     width: 100%;
     top: 4.2rem;
     left: 0rem;
   }
+
   .check {
     width: 100%;
   }
+
   .message {
     margin-bottom: 2rem;
   }
+
   .between {
     text-align: center;
     font-size: 1.1rem;
@@ -280,6 +288,7 @@ For device having maximum of 300 px
     top: 1.2rem;
     right: 0rem;
   }
+
   .right {
     font-size: 1.2rem;
   }
